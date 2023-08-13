@@ -1,0 +1,145 @@
+/* Reset default styles */
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #293241;
+    color: #f0a500;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #293241;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #51cc2c;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Feature circles */
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0a500;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+.circle:hover {
+    background-color: #d98200;
+}
+
+.circle h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.circle p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
+/* Gallery images */
+.image {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Video section */
+#video {
+    background-color: #f0a500;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.video-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Contact section */
+#contact {
+    background-color: #293241;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f0a500;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #d98200;
+}
